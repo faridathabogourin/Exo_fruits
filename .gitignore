@@ -1,0 +1,18 @@
+# Ignorer fichiers lourds
+*.zip
+*.rar
+*.7z
+*.exe
+
+# Ignorer base SQL si trop lourde
+*.sql
+
+# Ignorer fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer dossiers inutiles
+vendor/
+node_modules/
+cache/
+tmp/

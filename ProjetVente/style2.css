@@ -1,0 +1,286 @@
+.sami{
+    font-family:Arial,sans-serif;
+    background-color: #f3f3f3;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+.m-titre{
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat;
+    font-size: 2rem;
+    color: black;
+    padding: 20px;
+    
+}
+.m-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-des{
+    border-radius: 15px;
+    text-align: center;
+    font-family: arizona;
+    font-size: 1.5rem;
+    background-color: #4caf50 ;
+    margin-bottom: 20px;
+    display: inline-block;
+    align-items: center;
+}
+    
+.m-th{
+    color:orange;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.m-1container{
+    display: flex ;
+
+    -grid-template-columns: 1fr 1fr;
+    -grid-template-rows: 100px 200px;
+    padding: 20px;
+    
+}
+   
+
+.ma{
+    width: 30%;
+    border-collapse: collapse   ;
+    
+    font-family: "Poppins",sans-serif;
+    background-color: #f9fff0;
+    border-radius:  12px;
+    overflow: hidden;
+    
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.1);
+
+    
+}
+
+.m-th{
+    padding: 12px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+
+.m-commande{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+
+
+}
+
+.mb{
+    background-color: #6a6a6A;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+}
+
+tr{
+    background-color: #4caf50;
+}
+
+.mc{
+    border-bottom: none;
+    background-color: white;
+    font-weight: bold;
+    
+}
+.mc:hover{
+    background-color: #e0f7d4;
+    transition: background-color 0.3s ease ;
+}
+
+td{
+    padding: 50px;
+    border-bottom: 2px solid #4caf50;
+}
+
+.m-4price,.m-5price,.m-6price{
+    text-align: right;
+    font-weight: bold;
+}
+
+.m-7total{
+    background-color:#2E7D32;
+    color: white;
+}
+
+
+
+.m-8finalprice{
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.m9form-section{
+    
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.m-info{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Lato;
+}
+
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,textarea,select{
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    font-size: 12px;
+    width: 400px;
+    height: 50px;
+}
+
+.m11actions{
+    background-color: #ff8c00;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color O.3s ease;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 40px;
+    border-radius: 12px;
+    
+
+}
+
+.m-de{
+    background-color: #ff8c00;
+    
+}
+
+button{
+    border: none;
+    background-color: #ff8c00;
+    
+}
+
+.m-proverbe{
+        font-style: italic;
+        font-size: 1.5em;
+        font-weight: bold;
+        line-height: 1.4;
+        color: green; 
+        text-align: center;
+        border-radius: 2px;
+
+        
+}
+
+.m-propro{
+border: none;
+border-radius: 12px;
+background: #e8f4fd;
+text-align: center;
+width: 30%;
+
+margin: 30px auto;
+}
+
+
+
+
+.ss{
+    font-family: Arial,sans-serif;
+    background-color: white;
+    color: #333;
+    padding: 100px;
+}
+
+
+
+.ss1{
+    text-align: center;
+    color: #FF5722;
+}
+
+
+
+
+
+
+.sauteur{
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid#4CAF50;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0, 0, 0.1);
+
+    
+}
+
+
+
+ img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.sstexte{
+    flex: 1;
+}
+
+ h3{
+    margin: -30px 0 0;
+    color: black;
+    font-weight: bold;
+}
+
+ p{
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #666;
+}
+/*alternance*/
+
+
+
+
+.droite{
+    flex-direction: row-reverse;
+}
+.gauche{
+    flex-direction: row;
+}
