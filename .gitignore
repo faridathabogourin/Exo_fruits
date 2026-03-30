@@ -16,3 +16,9 @@ vendor/
 node_modules/
 cache/
 tmp/
+
+ProjetVente/image/
+ProjetVente/Images/
+*.jpg
+*.jpeg
+*.png
