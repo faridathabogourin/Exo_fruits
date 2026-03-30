@@ -16,6 +16,7 @@ vendor/
 node_modules/
 cache/
 tmp/
+
 # Ignorer les dossiers d'images
 ProjetVente/image/
 ProjetVente/Images/
@@ -27,5 +28,6 @@ ProjetVente/Images/
 *.JPG
 *.JPEG
 *.PNG
-ProjetVente/facture/fpdf/tutorial/logo.png
+
+# Ignorer le dossier tutorial de FPDF
 ProjetVente/facture/fpdf/tutorial/
