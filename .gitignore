@@ -16,9 +16,16 @@ vendor/
 node_modules/
 cache/
 tmp/
-
+# Ignorer les dossiers d'images
 ProjetVente/image/
 ProjetVente/Images/
+
+# Ignorer toutes les images
 *.jpg
 *.jpeg
 *.png
+*.JPG
+*.JPEG
+*.PNG
+ProjetVente/facture/fpdf/tutorial/logo.png
+ProjetVente/facture/fpdf/tutorial/
